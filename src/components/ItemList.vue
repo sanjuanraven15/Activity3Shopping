@@ -2,7 +2,7 @@
     <div class="input">
       <input type="text" v-model="newItem" class="item-input" placeholder="Enter Item">
       <input class="qty-input" type="number" v-model="newItemQuantity" placeholder="QTY">
-      <button class="add-button" @keyup.enter="addItem">Add</button>
+      <button class="add-button" @click="addItem">Add</button>
     </div>
   </template>
   
